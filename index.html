@@ -35,4 +35,41 @@
         language-code="es"
     ></df-messenger>
     </body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot KFC Costa Rica Prototipo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        #chat-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <h1>¡Bienvenido al Prototipo del ChatBot de KFC Costa Rica!</h1>
+        <p>Este es un prototipo inicial. Haz clic en el icono del chat en la esquina inferior derecha para interactuar.</p>
+        <p>Por favor, ayúdanos a mejorarlo probando los diferentes flujos y compartiendo tus comentarios.</p>
+    </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="KFC_Conecta_CR"
+        agent-id="49c99424-2d3b-4e0f-b8b4-7dfd7afe27ed"
+        language-code="es"
+    ></df-messenger>
+    </body>
 </html>
